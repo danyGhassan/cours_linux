@@ -256,3 +256,40 @@ deb http://http.kali.org/kali kali-rolling main contrib non-free non-free-firmwa
 # Additional line for source packages
 # deb-src http://http.kali.org/kali kali-rolling main contrib non-free non-free-firmware
 ```
+### 🌞 Récupérer le fichier meow
+
+```
+┌──(dany㉿dany)-[~/Downloads]
+└─$ wget "https://gitlab.com/it4lik/b1-linux-2023/-/blob/master/tp/2/meow"       
+--2024-01-29 03:15:02--  https://gitlab.com/it4lik/b1-linux-2023/-/blob/master/tp/2/meow
+Resolving gitlab.com (gitlab.com)... 172.65.251.78, 2606:4700:90:0:f22e:fbec:5bed:a9b9
+Connecting to gitlab.com (gitlab.com)|172.65.251.78|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 38536 (38K) [text/html]
+Saving to: ‘meow’
+
+meow                                                       100%[=======================================================================================================================================>]  37.63K  --.-KB/s    in 0.001s  
+
+2024-01-29 03:15:09 (37.5 MB/s) - ‘meow’ saved [38536/38536]
+
+```
+
+### 🌞 Trouver le dossier dawa/
+
+ - utilisez la commande file /path/vers/le/fichier pour déterminer le type du fichier:
+
+```
+┌──(dany㉿dany)-[~/Downloads]
+└─$ file meow                                                             
+meow: HTML document, Unicode text, UTF-8 text, with very long lines (15796)                                                    
+```
+
+- renommez-le fichier correctement (si c'est une archive compressée ZIP, il faut ajouter .zip à son nom) :
+
+```                                                   
+┌──(dany㉿dany)-[~/Downloads]
+└─$ mv meow meow.zip  
+```
+
+
+
