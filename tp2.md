@@ -291,5 +291,11 @@ meow: HTML document, Unicode text, UTF-8 text, with very long lines (15796)
 └─$ mv meow meow.zip  
 ```
 
+- extraire l'archive avec une commande :
+
+```
+
+```
+
 
 
